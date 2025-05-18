@@ -18,7 +18,8 @@ import {
   School as EducationIcon,
   Code as ProjectsIcon,
   Build as SkillsIcon,
-  Email as ContactIcon
+
+  History as HistoryIcon
 } from '@mui/icons-material';
 
 const SideNav = () => {
@@ -35,7 +36,8 @@ const SideNav = () => {
     { text: 'Education', path: '/education', icon: <EducationIcon /> },
     { text: 'Projects', path: '/projects', icon: <ProjectsIcon /> },
     { text: 'Skills', path: '/skills', icon: <SkillsIcon /> },
-    { text: 'Contact', path: '/contact', icon: <ContactIcon /> }
+      { text: 'Experience', path: '/experience', icon: <HistoryIcon /> }
+
   ];
 
   return (
