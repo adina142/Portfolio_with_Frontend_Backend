@@ -37,6 +37,10 @@ Here is ##GET COMMAND## to fetch all the data from database
 
 ![image](https://github.com/user-attachments/assets/7504b8da-9fb1-4053-8b52-ec586737ad42)
 
+**PROJECT SECTION**
+![image](https://github.com/user-attachments/assets/79e4f8a4-dc5f-4553-a142-9a7ada7fc606)
+
+
 ##PUT COMMAND##
 
 ![image](https://github.com/user-attachments/assets/5059e2b5-bc21-478f-83af-e6f371a9c5f5)
@@ -58,6 +62,9 @@ POSTMAN REQUESTS
 
 ***FRONTEND VIEW***
 ![image](https://github.com/user-attachments/assets/f756378d-16d3-41fb-958b-39ad0e478f88)
+
+
+
 
 
 
