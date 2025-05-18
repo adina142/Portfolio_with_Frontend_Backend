@@ -1,0 +1,122 @@
+/* Experience.module.css */
+
+.container {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  background-color: #fafafa;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.icon {
+  margin-right: 0.5rem;
+  color: #1976d2; /* Material UI primary blue */
+}
+
+.buttons > * {
+  margin-left: 0.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.form input,
+.form textarea {
+  padding: 0.5rem 0.7rem;
+  font-size: 1rem;
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+  outline-offset: 2px;
+  transition: border-color 0.3s ease;
+}
+
+.form input:focus,
+.form textarea:focus {
+  border-color: #1976d2;
+}
+
+.form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.noData {
+  font-style: italic;
+  color: #666;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.error {
+  background-color: #ffdddd;
+  border: 1px solid #ff5c5c;
+  color: #900;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.card {
+  background: white;
+  padding: 1rem 1.2rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 5px rgb(0 0 0 / 0.1);
+}
+
+.company {
+  font-weight: 600;
+  color: #555;
+  margin: 0.2rem 0;
+}
+
+.dates {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 0.8rem;
+}
+
+.cardButtons {
+  margin-top: 0.6rem;
+  display: flex;
+  gap: 0.7rem;
+}
+
+.cardButtons button {
+  font-size: 0.85rem;
+  text-transform: none;
+  padding: 0.25rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cardButtons button:hover {
+  opacity: 0.85;
+}
