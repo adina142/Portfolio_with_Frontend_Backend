@@ -1,44 +1,90 @@
 .container {
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 10px;
-  margin: 20px auto;
-  max-width: 600px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
 }
 
-.heading {
-  font-size: 24px;
-  color: #333;
-  margin-bottom: 15px;
-  text-align: center;
+.form {
+  display: grid;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
 }
 
-.educationList {
+input,
+textarea {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+textarea {
+  min-height: 80px;
+}
+
+.buttonGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.addBtn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.updateBtn {
+  background-color: #2196f3;
+  color: white;
+}
+
+.cancelBtn {
+  background-color: #9e9e9e;
+  color: white;
+}
+
+.deleteBtn {
+  background-color: #f44336;
+  color: white;
+}
+
+.fetchBtn {
+  background-color: #607d8b;
+  color: white;
+}
+
+.list {
   list-style: none;
   padding: 0;
 }
 
-.educationItem {
-  padding: 15px;
-  margin-bottom: 12px;
-  background-color: white;
-  border-left: 5px solid #4caf50;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+.item {
+  background: #f1f1f1;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
 }
 
-.educationItem h3 {
-  margin: 0;
-  font-size: 18px;
-  color: #222;
+.actions {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
 }
 
-.educationItem p {
-  margin: 5px 0;
-  color: #666;
-}
-
-.message {
-  text-align: center;
-  color: #777;
+.error {
+  background-color: #ffdddd;
+  color: #d8000c;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #d8000c;
+  border-radius: 4px;
 }
