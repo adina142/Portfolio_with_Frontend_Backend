@@ -23,6 +23,37 @@ My Frontend with integration of Backend Database
 
 ![image](https://github.com/user-attachments/assets/6c53ef6a-bd09-450c-bde2-98b017ebd747)
 
+**SKILSS SECTION**
+
+![image](https://github.com/user-attachments/assets/7045ae82-37ac-4df2-b616-4f4f7490ea8f)
+
+Here is ##POSTMAN TESTING## with screenshots
+
+Here is ##GET COMMAND## to fetch all the data from database
+
+![image](https://github.com/user-attachments/assets/558f9cac-5051-40d6-a39d-51d9ffdad2e4)
+
+##POST COMMAND**
+
+![image](https://github.com/user-attachments/assets/7504b8da-9fb1-4053-8b52-ec586737ad42)
+
+##PUT COMMAND##
+
+![image](https://github.com/user-attachments/assets/5059e2b5-bc21-478f-83af-e6f371a9c5f5)
+
+***FRONTEND VIEW***
+![image](https://github.com/user-attachments/assets/64cd4111-1508-4f85-8016-2ff6a67123e3)
+
+![image](https://github.com/user-attachments/assets/925916eb-d22f-4341-8fe3-1bfe065ff86c)
+
+
+
+
+
+
+
+
+
 
 
 
