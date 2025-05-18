@@ -1,7 +1,12 @@
+// routes/educationRoutes.js
+
 const express = require('express');
 const router = express.Router();
-const { getAllEducation } = require('../contollers/educationController');
+const educationController = require('../contollers/educationController');
 
-router.get('/', getAllEducation);
+router.get('/', educationController.getAllEducation);
+router.post('/', educationController.createEducation);
+router.put('/:id', educationController.updateEducation);
+router.delete('/:id', educationController.deleteEducation);
 
 module.exports = router;
