@@ -81,7 +81,7 @@ Follow these steps to run the backend on your local machine:
 
 AFTER INSTALLING MONGODB Connect your Server.js with db.js in Config.
 ### PORT=5000 ###
-### MONGO_URI=your_mongodb_connection_string ###
+### MONGO_URI=mongodb://localhost:27017/Portfolio_Backend ###
 ### JWT_SECRET=your_jwt_secret ###
 
 **Development Mode**
