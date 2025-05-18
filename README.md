@@ -56,6 +56,10 @@ POSTMAN REQUESTS
 
 ![image](https://github.com/user-attachments/assets/78eb270a-5d72-4b01-8272-467d9210f92a)
 
+***FRONTEND VIEW***
+![image](https://github.com/user-attachments/assets/f756378d-16d3-41fb-958b-39ad0e478f88)
+
+
 
 
 
