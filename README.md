@@ -69,6 +69,29 @@ POSTMAN REQUESTS
 
 
 
+## 🖥️ Run Backend Locally
+
+Follow these steps to run the backend on your local machine:
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) installed (v18+ recommended)
+- [MongoDB](https://www.mongodb.com/) or any other DB you are using (optional if needed)
+- Git
+
+AFTER INSTALLING MONGODB Connect your Server.js with db.js in Config.
+### PORT=5000 ###
+### MONGO_URI=your_mongodb_connection_string ###
+### JWT_SECRET=your_jwt_secret ###
+
+**Development Mode**
+If you're using nodemon:
+
+## npm run dev ##
+
+✅ ### API Testing ###
+You can test the API using Postman or Insomnia. Import the collection (if provided) and hit **http://localhost:5000/api**
+
 
 
 
