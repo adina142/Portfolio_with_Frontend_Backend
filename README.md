@@ -46,6 +46,19 @@ Here is ##GET COMMAND## to fetch all the data from database
 
 ![image](https://github.com/user-attachments/assets/925916eb-d22f-4341-8fe3-1bfe065ff86c)
 
+**EXPERIENCE SECTION**
+POSTMAN REQUESTS
+
+![image](https://github.com/user-attachments/assets/92859ff6-9ee3-4110-9314-e2d2da37b3ce)
+![image](https://github.com/user-attachments/assets/20507663-7bd4-46be-ae58-a37f4bf74118)
+
+***MONGODB SCREENSHOT OF EXPERIENCE SECTION***
+
+![image](https://github.com/user-attachments/assets/78eb270a-5d72-4b01-8272-467d9210f92a)
+
+
+
+
 
 
 
