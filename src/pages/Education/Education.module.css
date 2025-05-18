@@ -1,0 +1,44 @@
+.container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.educationList {
+  list-style: none;
+  padding: 0;
+}
+
+.educationItem {
+  padding: 15px;
+  margin-bottom: 12px;
+  background-color: white;
+  border-left: 5px solid #4caf50;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.educationItem h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #222;
+}
+
+.educationItem p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.message {
+  text-align: center;
+  color: #777;
+}
