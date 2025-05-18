@@ -3,14 +3,12 @@ import { Routes, Route } from 'react-router-dom';
 import { PageTitleProvider } from './context/PageTitleContext';
 import Layout from './components/Layout';
 
-
 // Lazy-loaded components
 const Home = lazy(() => import('./pages/Home'));
 const Education = lazy(() => import('./pages/Education'));
 const Projects = lazy(() => import('./pages/Projects'));
-const Contact = lazy(() => import('./pages/Contact'));
-const Skills = lazy(() => import('./pages/Skills')); // Fixed capitalization
-
+const Experience = lazy(() => import('./pages/Experience')); // ✅ Correct import
+const Skills = lazy(() => import('./pages/Skills'));
 
 const App = () => {
   return (
@@ -21,8 +19,8 @@ const App = () => {
             <Route index element={<Home />} />
             <Route path="education" element={<Education />} />
             <Route path="projects" element={<Projects />} />
-            <Route path="contact" element={<Contact />} />
-            <Route path="skills" element={<Skills />} /> {/* Corrected component name */}
+            <Route path="experience" element={<Experience />} /> {/* ✅ Correct usage */}
+            <Route path="skills" element={<Skills />} />
           </Route>
         </Routes>
       </Suspense>
